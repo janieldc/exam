@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4455ZOxcmPaGMZEw11P0wdxUe+w7TFyf5BRu1YPOWRgv0jRR/uTRZhIxvePNZ2AvQqkgN9qIfW/PUGk07vnriQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\sprout exam\\SproutExam\\SproutExam.Core\\SproutExam.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Janiel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

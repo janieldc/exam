@@ -1,0 +1,61 @@
+﻿@model List<SproutExam.Data.Models.Employee>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Employee List</h1>
+
+<div class="table">
+
+    <div class="row border">
+        <div class="col-3 text-center">
+            <b>Name</b>
+        </div>
+        <div class="col-3 text-center">
+            <b>Birth Date</b>
+        </div>
+        <div class="col-2 text-center">
+            <b>TIN</b>
+        </div>
+        <div class="col-2 text-center">
+            <b>Employee Type</b>
+        </div>
+        <div class="col-2 text-center">
+            <b>Action</b>
+        </div>
+    </div>
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+            <div class="row border">
+                <div class="col-3">
+                    <span>@item.name</span>
+                </div>
+                <div class="col-3">
+                    <span>@item.birth_date</span>
+                </div>
+                <div class="col-2">
+                    <span>@item.tin</span>
+                </div>
+                <div class="col-2">
+                    <span>@item.employee_type</span>
+                </div>
+                <div class="col-2">
+                    <span>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Edit" asp-route-tin="@item.tin">Details</a>
+                    </span>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="flex-row">
+            <div class="col-lg-12 text-center">
+                <span>No data.</span>
+            </div>
+        </div>
+    }
+</div>

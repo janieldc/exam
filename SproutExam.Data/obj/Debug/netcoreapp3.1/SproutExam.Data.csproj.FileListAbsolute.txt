@@ -1,0 +1,9 @@
+D:\projects\sprout exam\SproutExam\SproutExam.Data\bin\Debug\netcoreapp3.1\SproutExam.Data.deps.json
+D:\projects\sprout exam\SproutExam\SproutExam.Data\bin\Debug\netcoreapp3.1\SproutExam.Data.dll
+D:\projects\sprout exam\SproutExam\SproutExam.Data\bin\Debug\netcoreapp3.1\SproutExam.Data.pdb
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.AssemblyInfoInputs.cache
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.AssemblyInfo.cs
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.csproj.CoreCompileInputs.cache
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.dll
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.pdb
+D:\projects\sprout exam\SproutExam\SproutExam.Data\obj\Debug\netcoreapp3.1\SproutExam.Data.csprojAssemblyReference.cache

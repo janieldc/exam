@@ -1,0 +1,68 @@
+﻿@model SproutExam.Data.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control disabled" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="birth_date" class="control-label"></label>
+                <input asp-for="birth_date" class="form-control disabled" />
+                <span asp-validation-for="birth_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tin" class="control-label"></label>
+                <input asp-for="tin" class="form-control disabled" />
+                <span asp-validation-for="tin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="employee_type" class="control-label"></label>
+                <input asp-for="employee_type" class="form-control disabled" />
+                <span asp-validation-for="employee_type" class="text-danger"></span>
+            </div>
+
+            @if (Model.employee_type == EmployeeTypeEnum.Regular)
+            {
+                <div class="form-group">
+                    <label asp-for="days_absent" class="control-label"></label>
+                    <input asp-for="days_absent" class="form-control" />
+                    <span asp-validation-for="days_absent" class="text-danger"></span>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label asp-for="days_worked" class="control-label"></label>
+                    <input asp-for="days_worked" class="form-control" />
+                    <span asp-validation-for="days_worked" class="text-danger"></span>
+                </div>
+            }
+
+            <div class="form-group">
+                <label asp-for="salary" class="control-label"></label>
+                <label class="control-label">@Model.salary</label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Compute Salary" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

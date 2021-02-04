@@ -1,0 +1,12 @@
+D:\projects\sprout exam\SproutExam\SproutExam.Core\bin\Debug\netcoreapp3.1\SproutExam.Core.deps.json
+D:\projects\sprout exam\SproutExam\SproutExam.Core\bin\Debug\netcoreapp3.1\SproutExam.Core.dll
+D:\projects\sprout exam\SproutExam\SproutExam.Core\bin\Debug\netcoreapp3.1\SproutExam.Core.pdb
+D:\projects\sprout exam\SproutExam\SproutExam.Core\bin\Debug\netcoreapp3.1\SproutExam.Data.dll
+D:\projects\sprout exam\SproutExam\SproutExam.Core\bin\Debug\netcoreapp3.1\SproutExam.Data.pdb
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.csprojAssemblyReference.cache
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.AssemblyInfoInputs.cache
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.AssemblyInfo.cs
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.csproj.CoreCompileInputs.cache
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.csproj.CopyComplete
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.dll
+D:\projects\sprout exam\SproutExam\SproutExam.Core\obj\Debug\netcoreapp3.1\SproutExam.Core.pdb
